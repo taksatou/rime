@@ -58,10 +58,13 @@ Example setting
 
 Build and install
 -------------------
+This project is built with maven-android-plugin.
 
     cd rime
     mvn package
     adb install target/rime-<VERSION>-apk
+
+see also, http://code.google.com/p/maven-android-plugin/
 
 
 How to use
@@ -72,5 +75,5 @@ and enable rime.
 
 for eclipse users
 ---------------------
-To generate eclipse project files, please run `mvn eclipse:eclipse`.
-
+- http://rgladwell.github.com/m2e-android/
+- https://github.com/rgladwell/m2e-android/issues/60
