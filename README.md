@@ -55,3 +55,22 @@ Example setting
     bind_gesture("swipe_up") { "do something" }
     bind_gesture("swipe_down") { "do something" }
 
+
+Build and install
+-------------------
+
+    cd rime
+    mvn package
+    adb install target/rime-<VERSION>-apk
+
+
+How to use
+--------------
+Go to android setting > Language & input > KEYBOARD & INPUT METHODS,
+and enable rime.
+
+
+for eclipse users
+---------------------
+To generate eclipse project files, please run `mvn eclipse:eclipse`.
+
